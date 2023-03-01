@@ -12,7 +12,7 @@ div {
 header {
     display: flex;
     justify-content: center;
-    font-size: 65px;
+    font-size: 80px;
     background-color: #FFDC2F;
 }
 
@@ -24,4 +24,26 @@ li {
 a:link, a:visited {
     color: white;
     text-decoration: none;
+}
+
+.form {
+    padding: 100px;
+    background-color: white;
+    text-align: left;
+    margin: auto;
+    display: table;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    float:left;
+    width:300px;
+    margin-bottom:5px;
+}
+
+input {
+    float:left;
+    width:300px;
+    margin-bottom:20px;
 }

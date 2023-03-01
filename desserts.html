@@ -9,79 +9,6 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link href="/343-s23-p1/css/desserts.css" rel="stylesheet">
   <title>Desserts</title>
-
-  <!--Header layout-->
-  <style>
-    header {
-      width: 100%;
-      height: 75px;
-      background-color: rgba(255, 217, 0, 0.917);
-
-      display: flex;
-      justify-content: center;
-      justify-content: column;
-      align-items: center;
-      top: 200px;
-      font-size: 2rem;
-    }
-
-    body {
-      background-color: rgb(123, 0, 184);
-    }
-  </style>
-
-  <!--layout for navigation tabs-->
-  <style>
-    nav_layout {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      justify-content: column;
-      align-items: start;
-    }
-    create_nav {
-      width: 14%;
-      height: 35px;
-      background-color: #eee;
-      border: 2px solid gray;
-      margin: 0;
-
-      text-align: center;
-      vertical-align: middle;
-      display: inline-block;
-      font-size: 1.5rem;
-    }
-  </style>
-
-  <!--grid layout for items-->
-  <style>
-    item_layout {
-      margin: 0;
-      gap: 6vw;
-      display: flex;
-      justify-content: space-evenly;
-      justify-content: column;
-      justify-content: center;
-      align-items: center;
-    }
-    create_item {
-      width: 225px;
-      height: 225px;
-      background-color: #eee;
-      border: 5px solid gray;
-      margin: 0;
-
-      font-size: 2rem;
-      text-align: center;
-      vertical-align: middle;
-      display: inline-block;
-      
-    }
-    #item_name::after, #item_cal::after, #item_price::after {
-      content: "\a";
-      white-space: pre;
-    }
-  </style>
 </head>
 
 <body>
@@ -113,18 +40,22 @@
   <item_layout>
     <create_item>
       <span id="item_name">Cookie</span><span id="item_cal">50 cal</span><span id="item_price">$0.99</span>
+      <img src="/343-s23-p1/images/cookie.jpg" alt="Chocolate chip cookie" style="width:110px;height:110px;">
     </create_item>
 
     <create_item>
       <span id="item_name">Brownie</span><span id="item_cal">200 cal</span><span id="item_price">$1.99</span>
+      <img src="/343-s23-p1/images/brownie.jpg" alt="Chocolate brownie" style="width:110px;height:110px;">
     </create_item>
 
     <create_item>
       <span id="item_name">Donut</span><span id="item_cal">300 cal</span><span id="item_price">$1.49</span>
+      <img src="/343-s23-p1/images/donut.jpg" alt="Pink donut with sprinkles" style="width:110px;height:110px;">
     </create_item>
 
     <create_item>
       <span id="item_name">Ice Cream</span><span id="item_cal">250 cal</span><span id="item_price">$1.49</span>
+      <img src="/343-s23-p1/images/ice-cream.jpg" alt="Vanilla ice cream in a cone" style="width:110px;height:110px;">
     </create_item>
   </item_layout>
 

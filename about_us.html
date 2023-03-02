@@ -8,34 +8,54 @@
   <meta name="description" content="Food Page">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link href="/343-s23-p1/css/about_us.css" rel="stylesheet">
+  <link href="/343-s23-p1/css/navs.css" rel="stylesheet">
   <title>About us</title>
-
-  <!--Contact Info layout-->
-  <style>
-    contact_info {
-      width: 200px;
-      height: 200px;
-      background-color: #eee;
-      border: 2px solid gray;
-      margin: 0;
-    }
-  </style>
 </head>
 
 <body>
   <header>ABOUT US</header>
 
-  <div>
-    <li><a href="/343-s23-p1/index.html">Home</a></li>
-    <li><a href="/343-s23-p1/menu.html">Menu</a></li>
-    <li><a href="/343-s23-p1/food.html">Food</a></li>
-    <li><a href="/343-s23-p1/drinks.html">Drinks</a></li>
-    <li><a href="/343-s23-p1/sides.html">Sides</a></li>
-    <li><a href="/343-s23-p1/desserts.html">Desserts</a></li>
-    <li><a href="/343-s23-p1/about_us.html">About us</a></li>
-  </div>
+  <nav_layout>
+    <create_nav><a href="index.html">Home</a></create_nav>
+    <create_nav><a href="food.html">Food</a></create_nav>
+    <create_nav><a href="drinks.html">Drinks</a></create_nav>
+    <create_nav><a href="sides.html">Sides</a></create_nav>
+    <create_nav><a href="desserts.html">Desserts</a></create_nav>
+    <create_nav><a href="about_us.html">About us</a></create_nav>
+  </nav_layout>
 
-  <contact_info>CONTACT US</contact_info>
+  <contact_info>
+    <span id="contact_title">CONTACT US</span>
+    <span id="contact_table">
+    <table>
+      <!--Table Header-->
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+    </thead>
 
+    <tr>
+      <td>Sayemum Hassan</td>
+      <td>+1 (123)-456-7890</td>
+      <td>myemail1000@gmail.com</td>
+    </tr>
+
+    <tr>
+      <td>David Nguyen</td>
+      <td>+1 (098)-765-4321</td>
+      <td>hisemail2000@gmail.com</td>
+    </tr>
+    </table></span>
+  </contact_info>
+
+  <img src="/343-s23-p1/images/generic_restaurant.jpg" alt="Generic restaurant image" style="width:110px;height:110px;">
+
+  <our_story_desc>
+    Our mission is to bring the freshest and most convenient array of foods to all our customers! From our vegetables grown fresh from
+    our gardens to our clean cultivated meats, we offer the highest quality foods at our diner!
+  </our_story_desc>
 </body>
 </html>

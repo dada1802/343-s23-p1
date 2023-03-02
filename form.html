@@ -8,28 +8,34 @@
   <meta name="description" content="Food Page">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link href="/343-s23-p1/css/form.css" rel="stylesheet">
+  <link href="/343-s23-p1/css/navs.css" rel="stylesheet">
   <title>Form</title>
 </head>
 
 <body>
   <header>FORM</header>
 
-  <div>
-    <li><a href="/343-s23-p1/index.html">Home</a></li>
-    <li><a href="/343-s23-p1/menu.html">Menu</a></li>
-    <li><a href="/343-s23-p1/food.html">Food</a></li>
-    <li><a href="/343-s23-p1/drinks.html">Drinks</a></li>
-    <li><a href="/343-s23-p1/sides.html">Sides</a></li>
-    <li><a href="/343-s23-p1/desserts.html">Desserts</a></li>
-    <li><a href="/343-s23-p1/about_us.html">About us</a></li>
-  </div>
+  <nav_layout>
+    <create_nav><a href="index.html">Home</a></create_nav>
+    <create_nav><a href="food.html">Food</a></create_nav>
+    <create_nav><a href="drinks.html">Drinks</a></create_nav>
+    <create_nav><a href="sides.html">Sides</a></create_nav>
+    <create_nav><a href="desserts.html">Desserts</a></create_nav>
+    <create_nav><a href="about_us.html">About us</a></create_nav>
+  </nav_layout>
 
   <div class="form">
     <form>
-        <label class="required" for="fname">First name</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label class="required" for="lname">Last name</label><br>
-        <input type="text" id="lname" name="lname">
+        <label class="required" for="fname">First name</label>
+        <input type="text" id="box" name="fname">
+        <label class="required" for="lname">Last name</label>
+        <input type="text" id="box" name="lname">
+        <label class="required" for="address">Address</label>
+        <textarea class="address" id="address" name="address"></textarea>
+        <label class="required" for="email">E-mail address</label>
+        <input type="text" id="box" name="email">
+        <label class="required" for="number">Phone number</label>
+        <input type="text" id="box" name="number">
     </form>
   </div>
 

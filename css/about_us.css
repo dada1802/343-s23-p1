@@ -22,7 +22,7 @@ li {
     font-size: 3vw;
 }
 
-contact_info {
+.contact_info {
     width: 200px;
     height: 200px;
     background-color: #eee;
@@ -41,7 +41,7 @@ table, th, td {
     vertical-align: middle;
 }
 
-our_story_desc {
+.our_story_desc {
     width: 300px;
     height: 300px;
     border: 3px solid gray;

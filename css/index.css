@@ -38,22 +38,19 @@ li {
     flex-direction: column;
 }
 
-.block {
+.button-link {
     width: 25%;
-    margin-left: 40%;
-    margin-bottom: 7%;
+    margin-left: 36%;
+    margin-bottom: 5%;
     background-color: #5C0797;
     padding: 40px 35px;
     border-radius: 40px;
-}
-
-.button-link {
+    display: flex;
+    justify-content: center;
     font-size: 50px;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
 }
 
 @media screen and (max-width: 420px) {

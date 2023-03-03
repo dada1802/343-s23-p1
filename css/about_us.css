@@ -23,18 +23,30 @@ li {
 }
 
 .contact_info {
-    width: 200px;
-    height: 200px;
-    background-color: #eee;
-    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #8301D3;
     margin: 0; 
-
     font-size: 1.5rem;
-  }
+}
+
+.contact {
+    background-color: #8301D3;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact_table {
+    margin-top: 15px;
+    background-color: #8301D3;
+}
 
 table, th, td {
     border: 3px solid gray;
     background-color: #eee;
+    width: 45vw;
     height: 30px;
     font-size: 1rem;
     text-align: center;
@@ -48,11 +60,6 @@ table, th, td {
     background-color: #eee;
     text-align: center;
 }
-
-  #contact_title::after, #contact_table::after {
-    content: "\a";
-    white-space: pre;
-  }
 
 a:link, a:visited {
     color: black;

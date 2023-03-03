@@ -16,11 +16,12 @@ body {
     background-color: #8301D3;
 }
 
-header {
+h1 {
     display: flex;
     justify-content: center;
     font-size: 65px;
     background-color: #FFDC2F;
+    margin: 0;
 }
 
 li {

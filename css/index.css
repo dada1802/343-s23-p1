@@ -55,6 +55,42 @@ li {
     font-weight: bold;
 }
 
-@media screen and (max-width: 420px) {
-    
+/* iPhone 12 Pro dimensions */
+@media screen and (max-width: 390px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2px;
+        margin: 0;
+        height: 100vh;
+        background-image: url('/343-s23-p1/images/home-background.jpg');
+        background-size: 1340px;
+        background-position-y: bottom;
+        background-position-x: -460px;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        font-size: 39px;
+        background-color: #FFDC2F;
+        margin: 0;
+        color: black;
+    }
+
+    .button-link {
+        width: 25%;
+        margin-left: 36%;
+        margin-bottom: 20%;
+        background-color: #5C0797;
+        padding: 30px 25px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
 }

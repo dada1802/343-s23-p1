@@ -64,7 +64,7 @@ li {
         margin-bottom: 2px;
         margin: 0;
         height: 100vh;
-        background-image: url('./images/home-background.jpg');
+        background-image: url('images/home-background.jpg');
         background-size: 1340px;
         background-position-y: bottom;
         background-position-x: -460px;

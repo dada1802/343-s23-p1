@@ -31,6 +31,11 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+.create_item > img {
+    max-width: 70%;
+    height: auto;
+}
+
 @media screen and (max-width: 390px) {
     .heading {
         display: flex;
@@ -49,5 +54,10 @@ a:link, a:visited {
     hr {
         width: 320px;
         margin-right: 100px;
+    }
+
+    .create_item > img {
+        max-width: 70%;
+        height: auto;
     }
 }

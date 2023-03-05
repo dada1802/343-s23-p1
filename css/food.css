@@ -33,7 +33,7 @@ a:link, a:visited {
 
 .create_item > img {
     max-width: 70%;
-    height: auto;
+    height: 50%;
 }
 
 @media screen and (max-width: 390px) {
@@ -57,7 +57,7 @@ a:link, a:visited {
     }
 
     .create_item > img {
-        max-width: 70%;
-        height: auto;
+        max-width: 30%;
+        height: 25%;
     }
 }

@@ -80,6 +80,35 @@ input {
     color: red;
 }
 
-@media screen and (max-width: 420px) {
-    
+@media screen and (max-width: 390px) {
+    .form {
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: solid;
+        background-color: white;
+        text-align: left;
+        margin: auto;
+        margin-top: 75px;
+        display: table;
+    }
+
+    form {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    label {
+        float:left;
+        width:250px;
+        margin-bottom:5px;
+    }
+
+    input {
+        float:left;
+        width:250px;
+        margin-bottom:15px;
+    }
 }

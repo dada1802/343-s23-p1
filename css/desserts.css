@@ -36,6 +36,28 @@ a:link, a:visited {
     height: auto;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 390px) {
+    .heading {
+        display: flex;
+        justify-content: center;
+        font-size: 39px;
+        background-color: #FFDC2F;
+        margin: 0;
+        color: black;
+    }
 
+    h1 {
+        color: white;
+        font-size: 20px;
+    }
+
+    hr {
+        width: 320px;
+        margin-right: 100px;
+    }
+
+    .create_item > img {
+        max-width: 30%;
+        height: 25%;
+    }
 }

@@ -112,6 +112,10 @@ a:link, a:visited {
     font-weight: bold;
 }
 
+span {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1100px) {
     .heading {
         display: flex;
@@ -134,8 +138,10 @@ a:link, a:visited {
 
     .our_story_desc {
         font-size: 0.75rem;
-        height: 170px;
+        width: 80%;
+        height: 90px;
         margin-top: 30px;
+        margin-left: 50px;
     }
 
     .upper_page_grid {
@@ -159,42 +165,43 @@ a:link, a:visited {
         border: 2px solid gray;
         background-color: #eee;
         margin-right: 350px;
-        width: 20%;
+        margin-left: 50px;
+        width: 30%;
         height: 30px;
-        font-size: 8px;
+        font-size: 10px;
         text-align: center;
         vertical-align: middle;
         font-family: 'Courier New', Courier, monospace;
     }
 
     .generic_restaurant_image > img {
-        margin-left: 15px;
-        width: 215px;
-        height: 175px;
+        margin-left: 40px;
+        width: 315px;
+        height: 190px;
     }
 
     .contact {
         width: 100%;
-        margin-top: 220px;
-        margin-right: 250px;
         color: #eee;
     }
 
     .contact_info {
         display: inline-block;
         width: 5vw;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin-left: 190px;
     }
 
     .contact_table {
         margin-top: 15px;
+        margin-left: 170px;
     }
 
     .perks_title {
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
         width: 100%;
         color: #eee;
     }

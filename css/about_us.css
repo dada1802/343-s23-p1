@@ -205,4 +205,10 @@ span {
         width: 100%;
         color: #eee;
     }
+
+    .create_item > img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
 }
